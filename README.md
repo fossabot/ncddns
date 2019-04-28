@@ -1,4 +1,6 @@
 # ncddns
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNekuSoul%2Fncddns.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNekuSoul%2Fncddns?ref=badge_shield)
+
 
 Dynamic DNS update client for domains hosted at netcup.
 
@@ -43,3 +45,6 @@ Dynamic DNS update client for domains hosted at netcup.
 * Run the install script as root: `sudo ./install.sh`.
 * The service `ncddns.service` and timer `ncddns.timer` are now installed and active.
 * The timer will run every 15 minutes. If necessary, change this behaviour in `/etc/systemd/system/ncddns.timer`.
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNekuSoul%2Fncddns.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNekuSoul%2Fncddns?ref=badge_large)
